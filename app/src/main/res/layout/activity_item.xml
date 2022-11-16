@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:padding="10dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/img"
+        android:text="Name"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginTop="10dp"
+        android:text="(Stage name)"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/national"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stageName"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/img"
+        android:text="National"
+        android:textColor="#2ACC93"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stageName"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/national"
+        android:text="Star"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</RelativeLayout>
